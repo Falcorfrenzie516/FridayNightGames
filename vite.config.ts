@@ -26,8 +26,10 @@ function safePublicCopyPlugin() {
 }
 
 export default defineConfig({
+  base: '/FridayNightGames/',
   plugins: [react(), safePublicCopyPlugin()],
   publicDir: false,
+
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
