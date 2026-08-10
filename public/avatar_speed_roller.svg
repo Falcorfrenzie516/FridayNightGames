@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </radialGradient>
+    <radialGradient id="body" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <!-- Motion streak behind -->
+  <path d="M10 90 Q40 85 60 100" stroke="#fbbf24" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M10 100 Q35 95 55 110" stroke="#fbbf24" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.35"/>
+  <path d="M14 112 Q38 108 58 120" stroke="#fbbf24" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.25"/>
+  <!-- Body -->
+  <rect x="36" y="36" width="136" height="136" rx="26" ry="26" fill="url(#body)" stroke="#854d0e" stroke-width="4"/>
+  <!-- Speed lines on body -->
+  <path d="M48 80 L72 80" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M44 92 L66 92" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+  <!-- Pips: 2 pip layout -->
+  <circle cx="78" cy="72" r="7.5" fill="#854d0e"/>
+  <circle cx="122" cy="118" r="7.5" fill="#854d0e"/>
+  <!-- Eyes - determined look -->
+  <ellipse cx="82" cy="112" rx="12" ry="13" fill="white" stroke="#854d0e" stroke-width="2.5"/>
+  <ellipse cx="118" cy="112" rx="12" ry="13" fill="white" stroke="#854d0e" stroke-width="2.5"/>
+  <circle cx="84" cy="113" r="7" fill="#1c1917"/>
+  <circle cx="120" cy="113" r="7" fill="#1c1917"/>
+  <circle cx="86" cy="110" r="3" fill="white" opacity="0.9"/>
+  <circle cx="122" cy="110" r="3" fill="white" opacity="0.9"/>
+  <!-- Determined brows (flat/slightly angled down) -->
+  <path d="M74 100 Q82 95 90 98" stroke="#854d0e" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M110 98 Q118 95 126 100" stroke="#854d0e" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Mouth (straight determined) -->
+  <path d="M88 132 Q100 138 112 132" stroke="#854d0e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Golden highlights -->
+  <rect x="36" y="36" width="136" height="136" rx="26" fill="none" stroke="#fef08a" stroke-width="3" opacity="0.5"/>
+  <!-- Gloss -->
+  <ellipse cx="68" cy="56" rx="20" ry="9" fill="white" opacity="0.25" transform="rotate(-18 68 56)"/>
+</svg>

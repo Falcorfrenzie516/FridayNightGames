@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="55%" r="50%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </radialGradient>
+    <radialGradient id="body" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#fecaca"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <!-- Body -->
+  <rect x="32" y="44" width="136" height="136" rx="26" ry="26" fill="url(#body)" stroke="#7f1d1d" stroke-width="4"/>
+  <!-- Flame tuft -->
+  <path d="M85 44 Q88 22 100 18 Q112 22 115 44" fill="#fdba74" stroke="#ea580c" stroke-width="2"/>
+  <path d="M90 44 Q93 28 100 24 Q107 28 110 44" fill="#fef08a" stroke="#f59e0b" stroke-width="1.5"/>
+  <path d="M95 44 Q97 32 100 30 Q103 32 105 44" fill="white" opacity="0.7"/>
+  <!-- Pips: 3 left, 3 right layout -->
+  <circle cx="72" cy="82" r="7" fill="#7f1d1d"/>
+  <circle cx="72" cy="108" r="7" fill="#7f1d1d"/>
+  <circle cx="72" cy="134" r="7" fill="#7f1d1d"/>
+  <circle cx="128" cy="82" r="7" fill="#7f1d1d"/>
+  <circle cx="128" cy="108" r="7" fill="#7f1d1d"/>
+  <circle cx="128" cy="134" r="7" fill="#7f1d1d"/>
+  <!-- Eyes -->
+  <ellipse cx="82" cy="100" rx="12" ry="13" fill="white" stroke="#7f1d1d" stroke-width="2.5"/>
+  <ellipse cx="118" cy="100" rx="12" ry="13" fill="white" stroke="#7f1d1d" stroke-width="2.5"/>
+  <circle cx="84" cy="101" r="7" fill="#1c1917"/>
+  <circle cx="120" cy="101" r="7" fill="#1c1917"/>
+  <circle cx="86" cy="98" r="3" fill="white" opacity="0.9"/>
+  <circle cx="122" cy="98" r="3" fill="white" opacity="0.9"/>
+  <!-- Mischievous smirk -->
+  <path d="M87 122 Q98 132 114 118" stroke="#7f1d1d" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Raised brow -->
+  <path d="M74 88 Q82 82 88 86" stroke="#7f1d1d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M112 86 Q118 82 126 88" stroke="#7f1d1d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Rim glow -->
+  <rect x="32" y="44" width="136" height="136" rx="26" fill="none" stroke="#fbbf24" stroke-width="3" opacity="0.5"/>
+  <!-- Gloss -->
+  <ellipse cx="65" cy="66" rx="18" ry="9" fill="white" opacity="0.22" transform="rotate(-15 65 66)"/>
+</svg>

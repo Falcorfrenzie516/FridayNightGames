@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d946ef"/>
+      <stop offset="100%" stop-color="#6b21a8"/>
+    </radialGradient>
+    <radialGradient id="body" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#f5d0fe"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <!-- Body slightly tilted -->
+  <rect x="30" y="30" width="140" height="140" rx="28" ry="28" fill="url(#body)" stroke="#4a1772" stroke-width="4" transform="rotate(4 100 100)"/>
+  <!-- Pips: 5 pip layout -->
+  <circle cx="75" cy="75" r="7" fill="#4a1772"/>
+  <circle cx="125" cy="75" r="7" fill="#4a1772"/>
+  <circle cx="100" cy="100" r="7" fill="#4a1772"/>
+  <circle cx="75" cy="125" r="7" fill="#4a1772"/>
+  <circle cx="125" cy="125" r="7" fill="#4a1772"/>
+  <!-- Eyes with raised inner brows (mischievous) -->
+  <ellipse cx="80" cy="105" rx="13" ry="14" fill="white" stroke="#4a1772" stroke-width="2.5"/>
+  <ellipse cx="120" cy="105" rx="13" ry="14" fill="white" stroke="#4a1772" stroke-width="2.5"/>
+  <circle cx="82" cy="106" r="8" fill="#3b0764"/>
+  <circle cx="122" cy="106" r="8" fill="#3b0764"/>
+  <circle cx="85" cy="103" r="3.5" fill="white" opacity="0.9"/>
+  <circle cx="125" cy="103" r="3.5" fill="white" opacity="0.9"/>
+  <!-- Tilted brows -->
+  <path d="M70 93 Q80 86 88 91" stroke="#4a1772" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M112 91 Q120 86 130 93" stroke="#4a1772" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Grin -->
+  <path d="M82 127 Q100 142 118 127" stroke="#4a1772" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M82 127 Q84 132 88 128" stroke="#4a1772" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M118 127 Q116 132 112 128" stroke="#4a1772" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Neon rim -->
+  <rect x="30" y="30" width="140" height="140" rx="28" fill="none" stroke="#e879f9" stroke-width="3" opacity="0.6" transform="rotate(4 100 100)"/>
+  <!-- Gloss -->
+  <ellipse cx="62" cy="50" rx="20" ry="9" fill="white" opacity="0.22" transform="rotate(-14 62 50)"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="55%" r="50%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </radialGradient>
+    <radialGradient id="body" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fcd34d"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <!-- Bear body -->
+  <ellipse cx="100" cy="118" rx="58" ry="56" fill="url(#body)" stroke="#78350f" stroke-width="3.5"/>
+  <!-- Ears -->
+  <circle cx="58" cy="62" r="20" fill="#fcd34d" stroke="#78350f" stroke-width="3"/>
+  <circle cx="58" cy="62" r="12" fill="#fbbf24"/>
+  <circle cx="142" cy="62" r="20" fill="#fcd34d" stroke="#78350f" stroke-width="3"/>
+  <circle cx="142" cy="62" r="12" fill="#fbbf24"/>
+  <!-- Muzzle -->
+  <ellipse cx="100" cy="140" rx="26" ry="18" fill="#fbbf24" stroke="#78350f" stroke-width="2"/>
+  <!-- Nose -->
+  <ellipse cx="100" cy="132" rx="7" ry="5" fill="#78350f"/>
+  <!-- Eyes -->
+  <ellipse cx="82" cy="110" rx="12" ry="13" fill="white" stroke="#78350f" stroke-width="2.5"/>
+  <ellipse cx="118" cy="110" rx="12" ry="13" fill="white" stroke="#78350f" stroke-width="2.5"/>
+  <circle cx="84" cy="111" r="7" fill="#1c1917"/>
+  <circle cx="120" cy="111" r="7" fill="#1c1917"/>
+  <circle cx="86" cy="108" r="3" fill="white" opacity="0.9"/>
+  <circle cx="122" cy="108" r="3" fill="white" opacity="0.9"/>
+  <!-- Mouth -->
+  <path d="M92 148 Q100 156 108 148" stroke="#78350f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Small dice the bear holds -->
+  <rect x="128" y="144" width="28" height="28" rx="6" fill="white" stroke="#78350f" stroke-width="2"/>
+  <circle cx="136" cy="152" r="3" fill="#78350f"/>
+  <circle cx="148" cy="152" r="3" fill="#78350f"/>
+  <circle cx="136" cy="164" r="3" fill="#78350f"/>
+  <circle cx="148" cy="164" r="3" fill="#78350f"/>
+  <!-- Arm holding dice -->
+  <path d="M120 152 Q128 148 128 156" stroke="#fcd34d" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Gloss -->
+  <ellipse cx="72" cy="82" rx="18" ry="9" fill="white" opacity="0.22" transform="rotate(-15 72 82)"/>
+</svg>

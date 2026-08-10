@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </radialGradient>
+    <radialGradient id="body" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <!-- Fluffy cube body -->
+  <rect x="26" y="38" width="148" height="148" rx="38" ry="38" fill="url(#body)" stroke="#134e4a" stroke-width="4"/>
+  <!-- Fur texture bumps -->
+  <circle cx="35" cy="80" r="10" fill="#2dd4bf" opacity="0.7"/>
+  <circle cx="26" cy="62" r="8" fill="#2dd4bf" opacity="0.6"/>
+  <circle cx="40" cy="52" r="9" fill="#2dd4bf" opacity="0.6"/>
+  <circle cx="165" cy="80" r="10" fill="#2dd4bf" opacity="0.7"/>
+  <circle cx="174" cy="62" r="8" fill="#2dd4bf" opacity="0.6"/>
+  <circle cx="160" cy="52" r="9" fill="#2dd4bf" opacity="0.6"/>
+  <circle cx="58" cy="30" r="10" fill="#2dd4bf" opacity="0.6"/>
+  <circle cx="100" cy="26" r="11" fill="#2dd4bf" opacity="0.65"/>
+  <circle cx="142" cy="30" r="10" fill="#2dd4bf" opacity="0.6"/>
+  <!-- Pip cheeks (cute pips on face as freckles) -->
+  <circle cx="68" cy="148" r="5" fill="#0f766e" opacity="0.6"/>
+  <circle cx="80" cy="158" r="5" fill="#0f766e" opacity="0.6"/>
+  <circle cx="120" cy="148" r="5" fill="#0f766e" opacity="0.6"/>
+  <circle cx="132" cy="158" r="5" fill="#0f766e" opacity="0.6"/>
+  <!-- Tiny rounded arms -->
+  <ellipse cx="36" cy="140" rx="16" ry="10" fill="#2dd4bf" stroke="#134e4a" stroke-width="2.5" transform="rotate(30 36 140)"/>
+  <ellipse cx="164" cy="140" rx="16" ry="10" fill="#2dd4bf" stroke="#134e4a" stroke-width="2.5" transform="rotate(-30 164 140)"/>
+  <!-- Big eyes -->
+  <ellipse cx="80" cy="110" rx="20" ry="22" fill="white" stroke="#134e4a" stroke-width="3"/>
+  <ellipse cx="120" cy="110" rx="20" ry="22" fill="white" stroke="#134e4a" stroke-width="3"/>
+  <circle cx="83" cy="112" r="13" fill="#7c3aed"/>
+  <circle cx="123" cy="112" r="13" fill="#7c3aed"/>
+  <circle cx="78" cy="106" r="7" fill="#1e1b4b"/>
+  <circle cx="118" cy="106" r="7" fill="#1e1b4b"/>
+  <circle cx="76" cy="103" r="3.5" fill="white" opacity="0.95"/>
+  <circle cx="116" cy="103" r="3.5" fill="white" opacity="0.95"/>
+  <!-- Mouth -->
+  <path d="M88 142 Q100 150 112 142" stroke="#134e4a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Soft purple rim -->
+  <rect x="26" y="38" width="148" height="148" rx="38" fill="none" stroke="#a78bfa" stroke-width="3" opacity="0.5"/>
+  <!-- Gloss -->
+  <ellipse cx="60" cy="58" rx="20" ry="9" fill="white" opacity="0.2" transform="rotate(-15 60 58)"/>
+</svg>
